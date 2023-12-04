@@ -1,5 +1,7 @@
 ## Inspiration websites
 ### Static sites
+this site: https://people.math.wisc.edu/~gbrown29/
+
 minimal
 - https://joshuamundinger.github.io/
 - https://www.caglaruyanik.com/
