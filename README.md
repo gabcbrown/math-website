@@ -1,28 +1,28 @@
 ## Inspiration websites
 ### Static sites
 minimal
-https://joshuamundinger.github.io/
-https://www.caglaruyanik.com/
-https://people.reed.edu/~zdaugherty/
-https://www.dumas.io/
-https://bsteinberg.ccny.cuny.edu/Webpage/
-https://people.math.wisc.edu/~apisa/
-https://people.math.wisc.edu/~ellenberg/
+- https://joshuamundinger.github.io/
+- https://www.caglaruyanik.com/
+- https://people.reed.edu/~zdaugherty/
+- https://www.dumas.io/
+- https://bsteinberg.ccny.cuny.edu/Webpage/
+- https://people.math.wisc.edu/~apisa/
+- https://people.math.wisc.edu/~ellenberg/
 
 cool
-https://people.math.wisc.edu/~aekent2/
+- https://people.math.wisc.edu/~aekent2/
 
 90's core
-http://wphooper.com/
-https://people.math.wisc.edu/~dymarz/
+- http://wphooper.com/
+- https://people.math.wisc.edu/~dymarz/
 
 ### More complicated static sites
 structured data template/generation:
-https://johndcobb.github.io/
+- https://johndcobb.github.io/
 
 ### google sites
-https://sites.google.com/site/amylouisecochran
-https://sites.google.com/view/lovingmath/home
+- https://sites.google.com/site/amylouisecochran
+- https://sites.google.com/view/lovingmath/home
 
 
 ## Steps
