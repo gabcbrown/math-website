@@ -59,8 +59,8 @@ CV page
 ```
 3) put the copy and the template together
 4) publish your website
-5) get the website listed on the department website!
-6) submit your website with google SEO
+5) get the website listed on the department website! (email nagreen@math.wisc.edu)
+6) submit your website with google SEO ask sara or gabriela for help
 
 ## Setting up math department server hosting
 ### 0) How to read this doc
