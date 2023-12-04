@@ -1,0 +1,116 @@
+\documentclass[11pt, reqno]{amsart}
+\usepackage[margin=1in]{geometry}    
+\geometry{letterpaper}       
+%\geometry{landscape}            % Landscape instead of vertical
+\usepackage[parfill]{parskip}    % Begin par with empty line instead of indent
+\usepackage{amsfonts, amscd, amssymb, amsthm, amsmath}
+\usepackage{pdfsync}  			 % Adds markers for tex searching
+\usepackage{enumerate}
+\usepackage[pdftex,bookmarks]{hyperref}
+\usepackage{titlesec}
+
+% Style customization %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% format of section headings
+\titleformat{\section}
+    {\Large\scshape\raggedright}
+    {}{0em}
+    {}
+    [\titlerule]
+    
+\titlespacing*{\section}{0pt}{1.6ex}{2.5ex}
+
+% format subsection headings
+\titleformat{\subsection}
+    {\normalsize\bfseries\raggedright}
+    {}{0em}
+    {}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    % \pagenumbering{gobble}
+	\begin{flushleft}{\LARGE \textbf{Gabriela Brown}}\hfill gbrown29@wisc.edu
+		% \textit{website:} math.gabriela.studio \\ 
+	\end{flushleft}
+	
+	\section{Education} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newcommand{\school}[3]{
+		\begin{raggedleft} {\large \textbf{#1}} \hfill #2\end{raggedleft} \\
+		#3
+	}
+	\school{University of Wisconsin-Madison}{2023-Present}{Ph.D. in Mathematics}
+	
+	\school{The City College of New York}{2021-2023}{Masters of Science, Mathematics. \textit{GPA:} 4.0.\\ 
+	\textit{Awards:} Dr. Barnett and Jean Hollander Rich Mathematics Scholarship, for talented students who have demonstrated superior ability in mathematics.}
+				
+	\school{Swarthmore College}{2014-2018}{Bachelor of Arts, Computer Science, Philosophy Minor. \textit{GPA:} 3.8. \\ 
+	\textit{Awards:} Edward Hanes Cooley '43 Endowed Scholarship, for academic merit in engineering.
+	}
+
+	{\large \textbf{Skills}} \\
+	\textit{Computers:} Rust, C/C++, OCaml, HTML/CSS/JavaScript, Python, \LaTeX \\
+	\textit{Languages:} English (fluent), Spanish (proficient)
+
+
+	\section{Publications} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	K. Finke, M. Kourakos M, \textbf{G. Brown}, et al. ``Ancestral haplotype reconstruction in endogamous populations using identity-by-descent." PLOS Computational Biology 17(2): e1008638. (2021) https://doi.org/10.1371/journal.pcbi.1008638
+		
+	
+	\section{Research Experience} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newcommand{\research}[4]{
+		\begin{raggedleft}
+			{\large \textbf{#1}} \textit{#3} \hfill {#2}
+		\end{raggedleft} \\
+		% \textit{Research Advisor:} #3 \\ 
+		#4
+	}
+
+	\research{The City College of New York}{Summer 2022}{Benjamin Steinberg}{Research in representation theory, on the paratrophic determinant of a commutative semigroup.} \\ 
+	
+	\research{Swarthmore College}{Fall and Spring 2017-2018}{Sara Mathieson}
+	{Research in computational biology, algorithmically reconstructing old genomes from recent data.} \\
+
+	\section{Teaching} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newcommand{\job}[3]{
+		\begin{raggedleft}
+			{\large \textbf{#1}} \hfill {#2}
+		\end{raggedleft} \\
+		#3
+	}
+		\job{The City College of New York}{Fall 2022}{Tutor for the CCNY Math and Physics open tutoring center, covering college algebra and trig, calculus, probability, linear algebra, and differential equations.}
+	
+	\section{Organizations} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newcommand{\org}[3]{
+		\begin{raggedleft}{\large \textbf{#1}} \hfill #2 \end{raggedleft}\\ 
+		#3
+	}
+	\org{Gender Minorities in Math at Wisconsin (GMMAW)}{Fall 2023-Present}{Organizer.}
+
+	\org{American Women in Mathematics}{Spring 2022-Spring 2023}{
+	Co-president of the CCNY's AWM chapter, and functional president of Math Club.} \\[-1em]
+	
+	\org{Women in Computer Science}{Fall 2015-Spring 2017}{
+		Co-president of Swarthmore's Women in Computer Science organization.
+	}
+
+	\section{Industry Experience} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\job{Software Engineer, Manta Networks}{April 2021-December 2021}{
+	Full-stack engineer (Rust, Typescript) building dev tooling for the Manta Networks private decentralized crypto exchange. Responsible for understanding the protocol presented in the Manta technical white paper and translating the research implementation into a user-friendly interface.}
+
+	\job{Software Engineer, Commure}{July 2018-August 2020}{
+	Full-stack engineer (Rust, Typescript, React, CockroachDB) at a start-up building a modern healthcare data stack off of the FHIR standard. I was an early engineer at the company taking the experimental stack to production with hundreds of doctors in several major healhtcare systems in the U.S. Specific projects I significantly contributed to include: building out backend infrastructure in Rust (generating static types and traits, middleware abstractions, API routing, operation parsing and implementation, external plugins), API robustness testing, and flexible data capture framework for patient inflow. Other responsibilities include: regular on call rotation, delploying software at new sites, interviewing prospective employees, and running several community resource groups.} 
+
+	\job{Technical Writer, Freelance}{November 2020-March 2021}{
+	Freelance technical writer for small tech start-ups. Projects included a 10 article series on systems design topics, technical documentation for product features, and how-to guides including github code samples.}
+
+
+	% \section{Dance}
+	% \begin{itemize}
+	% 	\item Trained in classical ballet since age 5.
+	% 	\item Member of the Pacific Ballet Academy pre-professional program (2011-2014).
+	% 	\item Performed repertoire including \textit{Swan Lake}, \textit{La Bayadere}, \textit{Jewels}, \textit{The Nutcracker}, and \textit{Don Quijote}. 
+	% 	\item Performed in the choreographic debut of Chandra Moss-Thorne at the Koresh Artists Showcase in Philadelphia. (2018)
+	% 	\item Attended the \textit{Blueprint} summer dance intensive at Peridance (2020).
+	% \end{itemize}
+
+\end{document}
