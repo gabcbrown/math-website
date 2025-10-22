@@ -1,5 +1,5 @@
 body {
-  background: #FFFDF8;
+  background: #f8f7ff;
   color: #000000;
   margin: auto;
   width: 42em;
@@ -8,6 +8,12 @@ body {
   font-size: 108%;
   padding-bottom: 6em;
   padding-top: 1em;
+}
+
+.forum-regular {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Headings in SANS */
@@ -428,24 +434,24 @@ div.important-link {
 a { text-decoration: none; }
 
 a:link {
-  color: #0303B0;
+  color: #1d55fd;
   background: transparent;
 }
 
 a:visited {
-  color: #0303B0;
+  color: #1d55fd;
   background: transparent;
 }
 
 a:hover {
-  color: #0303B0;
-  background: #EEEEEE;
+  color: #4810b0;
+  /* background: #EEEEEE; */
 }
 
-a:active {
-  color: #E00505;
+/* a:active {
+  color: #6f8cff;
   background: #EEEEEE;
-}
+} */
 
 a.img { 
 background: transparent !important;
